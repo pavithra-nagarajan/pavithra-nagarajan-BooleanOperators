@@ -1,3 +1,3 @@
 tasks:
-  - init: git remote set-url origin git@github.com:pavithra-nagarajan/pavithra-nagarajan-BooleanOperators.git && sed "s/\r$//" commit-command.sh | bash && gp open README.md
+  - init: code --install-extension kyntrack.gitpod-tracker-plugin && git remote set-url origin git@github.com:pavithra-nagarajan/pavithra-nagarajan-BooleanOperators.git && sed "s/\r$//" commit-command.sh | bash
   - command: code --install-extension vscjava.vscode-java-debug && code --install-extension redhat.java 
